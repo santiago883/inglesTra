@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    font-family: "Roboto Condensed", sans-serif;;
+}
+
+/* Chromium & Safari */
+input[type="number"]::-webkit-inner-spin-button {
+display: none;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.linha{
+    display: block;
+    height: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.3rem;
+    background-image: linear-gradient(90deg, #8257E6 0%, #A40EE4 92.32%);
+}
+
+button:hover{
+    transform: scale(110%);
+    
+}
+
+button{
+    background-image: linear-gradient(90deg, #00ffff 0%, #A40EE4 92.32%);
+    color: azure;
+}
+
+
+
+/* stilo pagina log */
+
+.containerLogin{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top:20%;
+    
+    
+}
+
+.login{
+    display: flex;
+    width: 450px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(69, 50, 119);
+    border-radius: 40px;
+    
+}
+
+.login img{
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+.formLogin input{
+    margin-bottom: 5px;
+    padding: 3px;
+    
+}
+
+.cadastrar{
+    align-items: center;
+    text-align: right;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(118, 118, 118);
+    position: relative;
+    text-align: right;
+    margin-top: -42;
+}
+
+.cadastrar :hover{
+    align-items: center;
+    text-align: right;
+    transform: scale(110%);
+    color:rgb(132, 0, 255);
+
+}
+
+
+
+.formLogin .buttonlogi{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-image: linear-gradient(90deg, #00ffff 0%, #A40EE4 92.32%);
+    display: block;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+/* stilo pagina form cadastro */
+
+.sectionFormCadastro{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top:20%;
+}
+
+.containerFormCadastro{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 70%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: end;
+}
+
+.containerFormCadastro h2{
+    text-align: center;
+    margin: 30px;
+}
+
+.containerButton{
+    padding-right: 40px;
+    
+}
+
+.containerButton button{
+    width: 160px;
+    height: 40px;
+    border-radius: 70px;
+    border: 1px solid black;
+}
+
+
+.containerInfo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.containerInfo h1{
+    margin: 20px;
+}
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    
+
+}
+
+.info *{
+    width: 100%;
+    max-width: 265px;
+}
+.info input{
+    padding: 3px;
+    margin: 3px;
+}
+
+.info p{
+    margin-left: 5px;
+}
+
+.sectionFormCadastro{
+    display: none;
+}
+
+/*  style tela home */
+.sectionTelaHome{
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerTelaHome{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    border: 1px solid black;
+    flex-direction: column;
+    max-width: 1200px;
+    
+    
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+    
+}
+
+.containerTelaHome img{
+    width: 20px;
+    margin-left: 10px;
+    
+
+}
+.containerTelaHome button {
+    display: flex;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+
+    
+
+}
+
+.containerTelaHome button img{
+   margin: 5px;
+}
+
+.usuario{
+    padding: 10px 18px;
+    
+}
+
+.usuario div{
+    font-size: 25px;
+    
+}
+
+.usuario div .linha{
+    margin-top: -5px;
+    width: auto;
+    margin-bottom: 5px;
+    
+    
+    
+}
+
+.sectionTelaHome{
+    display: none;
+}
+
+
+/* style form deposito */
+.formDeposito h2{
+    text-align: center;
+}
+
+.formDeposito > button{
+
+}
+
+
+.containerNotas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nota{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    min-width: 215px;
+}
+.nota img{
+    width: 100%;
+    margin: 0;
+    
+}
+
+.nota input{
+    margin: 0;
+    margin: 5px;
+
+}
+
+.nota p{
+    margin: 5px;
+}
+
+
+
+
+.formDB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formDB button{
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.containerDT{
+    padding:  0 40px;
+}
+
+.formDeposito{
+    display: none;
+}
+
+/* style form saque */
+
+.formSaque h2{
+    text-align: center;
+}
+
+.containerNotas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nota{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    min-width: 215px;
+}
+.nota img{
+    width: 100%;
+    margin: 0;
+    
+}
+
+.nota input{
+    margin: 0;
+    margin: 5px;
+
+}
+
+.nota p{
+    margin: 5px;
+}
+
+
+
+
+.formSB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSB button{
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.containerST{
+    padding:  0 40px;
+}
+
+.formSaque{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+    .containerInfo{
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: center;
+    }
+
+    .containerButton{
+    padding-right: 0px;
+    margin: 15px;
+    }
+    .containerButton button{
+        align-items: center;
+    }
+
+    .containerFormCadastro{
+        align-items: center;
+
+        height: 620px;
+    }
+
+    .info {
+        width: 100%;
+
+    }
+    
+    
+}
+
+
+
+
+
+

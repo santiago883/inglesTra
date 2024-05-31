@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="containerLogin">
+        <div class="login">
+            <img src="./img/usuario.png" alt="imagem padrao de usuario">
+            <form class="formLogin" >
+                <p>Nome:</p>
+                <input id="logarNome" value="santiago" type="text">
+                <p>Senha:</p>
+                <input id="logarSenha" value="tiago*23"type="password">
+                <button class="buttonlogi" id="buttonLogin">entrar</button>
+                <div class="cadastrar">
+                    <p class="paginaCadastral">cadastrar</p>
+                </div>
+            </Div>
+        </div>
+    </section>
+
+    <section class="sectionFormCadastro">
+        <div class="containerFormCadastro" >
+            <h2>formulario cadastro</h2>
+                    <div class="containerInfo">
+                        <div class="info">
+                            <h1>informações obrigatorias</h1>
+                            <div>
+                                <p>Primeiro nome:</p>
+                                <input id="nome"  type="text"  required>
+                                <p>Sobrenome:</p>
+                                <input id="sobrenome" type="text" required>
+                                <p>senha</p>
+                                <input id="senha" type="password" required>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h1>informações opcionais</h1>
+                            <div>
+                                <p>emal:</p>
+                                <input id="email" type="text">
+                                <p>data de nacimento</p>
+                                <input id="data" type="date">
+                            </div>
+                            
+                        </div>
+                    </div>
+            <div id="cadastrar" class="containerButton">
+                <button>enviar</button>
+            </div>
+            
+        </div>
+    </section>
+    <section class="sectionTelaHome">
+        <div class="containerTelaHome">
+            <div class="menu">
+                <button class="irHome">Home <img src="./img/home.png" alt=""></button>
+                <button class="irSaque">Saque <img  src="./img/fundo.png" alt=""></button>
+                <button class="irDeposito">deposito <img src="./img/depositar.png" alt=""></button>
+            </div>
+            <div class="usuario">
+                <div class="itemN">
+                    <p class="iNome">santiago moreno</p>
+                    <div class="linha"></div>
+                    
+                </div>
+                <div class="itemC">
+                    <p class="iConta">conta: 5175</p>
+                    <div class="linha"></div>
+                </div>
+                <div class="itemv">
+                    <p class="iValorConta">valor em conta: 0</p>
+                    <div class="linha"></div>
+                </div>
+            </div>
+            <div class="formDeposito">
+                <h2>Deposito</h2>
+                <div class="containerDT">
+                <p>Qunto deseja depositar?</p>
+                <input id="dT" type="number" inputmode="numeric">
+                </div>
+                <h2>Quantas notas ira depositar?</h2>
+                <div class="containerNotas">
+                    <div class="nota">
+                        <img src="./img/nota100.png" alt="">
+                        <input type="number" placeholder="100" id="nD0">
+                    </div>
+                    <div class="nota">
+                        <img src="./img/nota50.png" alt="">
+                        <input type="number" placeholder="50" id="nD1">
+                    </div>
+                    <div class="nota">
+                        <img src="./img/nota20.png" alt="">
+                        <input type="number" placeholder="20" id="nD2">
+                    </div>
+                    <div class="nota">
+                        <img src="./img/nota10.png" alt="">
+                        <input type="number" placeholder="10" id="nD3">
+                    </div>
+                    <div class="nota">
+                        <img src="./img/nota5.png" alt="">
+                        <input type="number" placeholder="5" id="nD4">
+                    </div>
+                    <div class="nota">
+                        <img src="./img/nota2.png" alt="">
+                        <input type="number" placeholder="2" id="nD5">
+                    </div>
+                    
+                </div>
+                <div class="formDB">
+                    <button class="buttonD">Depositar</button>
+                </div>
+                
+            </div>
+            <div class="formSaque">
+                <h2>Saque</h2>
+                <div class="containerST">
+                    <p>Qunto deseja sacar?</p>
+                    <input id="sT"  type="number" inputmode="numeric">
+                </div>
+                <h2>Quantas notas ira resever!</h2>
+                <div class="containerNotas">
+                    <div class="nota">
+                        <img src="./img/nota100.png" alt="">
+                        <p id="nS0">2</p>
+                    </div>
+                    <div class="nota">
+                        <img src="./img/nota50.png" alt="">
+                        <p id="nS1">2</p>
+                    </div>
+                    <div class="nota">
+                        <img src="./img/nota20.png" alt="">
+                        <p id="nS2">2</p>
+                    </div>
+                    <div class="nota">
+                        <img src="./img/nota10.png" alt="">
+                        <p id="nS3">2</p>
+                    </div>
+                    <div class="nota">
+                        <img src="./img/nota5.png" alt="">
+                        <p id="nS4">2</p>
+                    </div>
+                    <div class="nota">
+                        <img src="./img/nota2.png" alt="">
+                        <p id="nS5">2</p>
+                    </div>
+            
+                </div>
+                <div class="formSB">
+                    <button class="buttonS">Sacar</button>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+<script src="./js/main.js"></script>
+</html>
